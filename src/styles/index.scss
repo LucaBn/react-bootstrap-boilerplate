@@ -1,0 +1,17 @@
+// Variables
+@import "./variables";
+
+// Bootstrap variables overrides (https://getbootstrap.com/docs/4.0/getting-started/theming/#variable-defaults)
+@import "./bootstrap-overrides";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Bootstrap extensions
+@import "./bootstrap-extensions";
+
+// Global SCSS
+@import "./global";
+
+// Import app styles
+@import "../components/styles";
