@@ -5,7 +5,7 @@ This boilerplate provides a solid starting point for building responsive and mul
 ## Features
 
 - **React 18**: Leverage the latest React features for building interactive UIs.
-- **Bootstrap 5**: Utilize Bootstrap for responsive layouts and components.
+- **Bootstrap 5 and React-Bootstrap**: Utilize Bootstrap for responsive layouts and components.
 - **i18next & i18next-browser-languagedetector**: Implement multilingual support easily.
 - **Vite**: Enjoy a fast development experience and optimized builds.
 - **TypeScript**: Benefit from static type checking and the latest ECMAScript features.
