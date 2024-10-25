@@ -11,6 +11,9 @@ import { useTranslation } from "react-i18next";
 // Typings
 import { LanguageList } from "@/typings/i18next";
 
+// Constants
+import { APP_NAME } from "@/constants/app";
+
 const NavbarComponent: React.FC = () => {
   const [expanded, setExpanded] = useState<boolean>(false);
 
@@ -71,7 +74,7 @@ const NavbarComponent: React.FC = () => {
         <Container key={pathname}>
           <LinkContainer to={`/${language}`} onClick={handleLogoClick}>
             <Navbar.Brand onClick={closeNavbarDropdown} className="py-0">
-              Website Name or Logo
+              {APP_NAME}
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle
