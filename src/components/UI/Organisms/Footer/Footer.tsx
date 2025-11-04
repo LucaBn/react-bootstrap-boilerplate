@@ -1,7 +1,5 @@
 import React from "react";
-
-// Components
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Footer: React.FC = () => {
   return (

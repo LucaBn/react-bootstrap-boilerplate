@@ -1,9 +1,5 @@
 import React from "react";
-
-// Components
 import { Col, Container, Row } from "react-bootstrap";
-
-// Locales
 import { useTranslation } from "react-i18next";
 
 const HomePage: React.FC = () => {

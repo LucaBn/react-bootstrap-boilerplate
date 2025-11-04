@@ -1,14 +1,9 @@
 import React, { useEffect, useRef } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 
-// Components
-import Navbar from "@/components/UI/Organisms/Navbar/Navbar";
-import Footer from "@/components/UI/Organisms/Footer/Footer";
-
-// Providers
 import { useTheme } from "@/components/providers/ThemeProvider";
-
-// Constants
+import Footer from "@/components/UI/Organisms/Footer/Footer";
+import Navbar from "@/components/UI/Organisms/Navbar/Navbar";
 import { ThemeList } from "@/constants/themes";
 
 const App: React.FC = () => {

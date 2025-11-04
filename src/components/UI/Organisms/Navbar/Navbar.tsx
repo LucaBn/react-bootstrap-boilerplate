@@ -1,18 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+import { LinkContainer } from "react-router-bootstrap";
 import { useLocation } from "react-router-dom";
 
-// Components
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
-
-// Locales
-import { useTranslation } from "react-i18next";
-
-// Typings
-import { LanguageList } from "@/typings/i18next";
-
-// Constants
 import { APP_NAME } from "@/constants/app";
+import { LanguageList } from "@/typings/i18next";
 
 const NavbarComponent: React.FC = () => {
   const [expanded, setExpanded] = useState<boolean>(false);

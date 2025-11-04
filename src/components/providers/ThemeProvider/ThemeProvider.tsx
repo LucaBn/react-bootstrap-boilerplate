@@ -1,18 +1,11 @@
-import React, { useState, useEffect, createContext } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
-// Utils
+import { ThemeList } from "@/constants/themes";
+import { IGenericComponent } from "@/typings/components";
 import {
   readFromLocalStorage,
   writeToLocalStorage,
 } from "@/utils/local-storage";
-
-// Typings
-import { IGenericComponent } from "@/typings/components";
-
-// Constants
-import { ThemeList } from "@/constants/themes";
-
-// Define the context
 export interface IThemeContext {
   theme: ThemeList;
   changeTheme: (newTheme: ThemeList) => void;
@@ -20,7 +13,6 @@ export interface IThemeContext {
 
 const LS_THEME_VARIABLE = `Theme`;
 
-// Default createContextValue
 const defaultCreateContextValue = {
   theme: ThemeList.Dark,
   changeTheme: () => {},

@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-
 import {
   BrowserRouter,
   Outlet,
@@ -8,7 +7,6 @@ import {
   useParams,
 } from "react-router-dom";
 
-// Components
 import App from "@/components/App/App";
 import HomePage from "@/components/UI/Templates/HomePage/HomePage";
 import { LanguageList } from "@/typings/i18next";

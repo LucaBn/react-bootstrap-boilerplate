@@ -5,7 +5,6 @@ import {
   ThemeContext,
 } from "@/components/providers/ThemeProvider/ThemeProvider";
 
-// Define a custom hook to use the theme context
 export const useTheme = (): IThemeContext => {
   const context = useContext(ThemeContext);
 

@@ -1,16 +1,11 @@
 import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
+import { initReactI18next } from "react-i18next";
 
-// Typings
-import { LanguageList } from "@/typings/i18next";
-
-// Constants
-import { DEFAULT_LANGUAGE } from "@/constants/languages";
-
-// Locales
 import enCommon from "@/assets/locales/en/common.json";
 import itCommon from "@/assets/locales/it/common.json";
+import { DEFAULT_LANGUAGE } from "@/constants/languages";
+import { LanguageList } from "@/typings/i18next";
 
 export const defaultNS = "common";
 
