@@ -5,7 +5,7 @@ import { IGenericComponent } from "@/typings/components";
 import {
   readFromLocalStorage,
   writeToLocalStorage,
-} from "@/utils/local-storage";
+} from "@/utils/localStorage";
 export interface IThemeContext {
   theme: ThemeList;
   changeTheme: (newTheme: ThemeList) => void;

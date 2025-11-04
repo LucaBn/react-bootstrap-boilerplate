@@ -1,11 +1,13 @@
+import { LocalStorageKey } from "@/typings/localStorage";
+
 /**
  * Writes data to localStorage.
  *
- * @param {string} key - The key under which to store the data.
+ * @param {LocalStorageKey} key - The key under which to store the data.
  * @param {T} data - The data to be stored in localStorage.
  * @returns {void}
  */
-const writeToLocalStorage = <T>(key: string, data: T): void => {
+const writeToLocalStorage = <T>(key: LocalStorageKey, data: T): void => {
   try {
     localStorage.setItem(key, JSON.stringify(data));
   } catch (error) {
@@ -16,10 +18,10 @@ const writeToLocalStorage = <T>(key: string, data: T): void => {
 /**
  * Reads data from localStorage.
  *
- * @param {string} key - The key under which the data is stored.
+ * @param {LocalStorageKey} key - The key under which the data is stored.
  * @returns {T | null} - The data retrieved from localStorage, or null if not found or on error.
  */
-const readFromLocalStorage = <T>(key: string): T | null => {
+const readFromLocalStorage = <T>(key: LocalStorageKey): T | null => {
   try {
     const data = localStorage.getItem(key);
     return data ? JSON.parse(data) : null;
@@ -32,10 +34,10 @@ const readFromLocalStorage = <T>(key: string): T | null => {
 /**
  * Removes data from localStorage.
  *
- * @param {string} key - The key under which the data is stored.
+ * @param {LocalStorageKey} key - The key under which the data is stored.
  * @returns {void}
  */
-const removeFromLocalStorage = (key: string): void => {
+const removeFromLocalStorage = (key: LocalStorageKey): void => {
   try {
     localStorage.removeItem(key);
   } catch (error) {
@@ -43,4 +45,4 @@ const removeFromLocalStorage = (key: string): void => {
   }
 };
 
-export { writeToLocalStorage, readFromLocalStorage, removeFromLocalStorage };
+export { readFromLocalStorage, removeFromLocalStorage, writeToLocalStorage };

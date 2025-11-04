@@ -1,10 +1,11 @@
 /**
  * Generates a single string value by concatenating elements in a given classList array.
+ * Empty strings are ignored.
  * @param {string[]} classList - The list of class names.
  * @returns {string} - The generated class name value.
  */
 const generateClassNameValue = (classList: string[]): string => {
-  return classList.join(" ");
+  return classList.filter(Boolean).join(" ");
 };
 
 /**
