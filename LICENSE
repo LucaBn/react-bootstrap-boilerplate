@@ -19,3 +19,48 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Third-Party Licenses
+
+This project uses the following open-source libraries:
+
+Dependencies (MIT or Apache 2.0):
+
+- [bootstrap](https://github.com/twbs/bootstrap/blob/main/LICENSE) (MIT)
+- [i18next](https://github.com/i18next/i18next/blob/master/LICENSE) (MIT)
+- [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector/blob/master/LICENSE) (MIT)
+- [react](https://github.com/facebook/react/blob/main/LICENSE) (MIT)
+- [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap/blob/master/LICENSE) (MIT)
+- [react-dom](https://github.com/facebook/react/blob/main/LICENSE) (MIT)
+- [react-i18next](https://github.com/i18next/react-i18next/blob/master/LICENSE) (MIT)
+- [react-router-bootstrap](https://github.com/react-bootstrap/react-router-bootstrap/blob/master/LICENSE) (Apache 2.0)
+- [react-router-dom](https://github.com/remix-run/react-router/blob/main/LICENSE.md) (MIT)
+
+DevDependencies (MIT or Apache 2.0, used for development/build):
+
+- [@types/node](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE) (MIT)
+- [@types/react](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE) (MIT)
+- [@types/react-dom](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE) (MIT)
+- [@types/react-router-bootstrap](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/LICENSE) (MIT)
+- [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/LICENSE) (MIT)
+- [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/parser/LICENSE) (MIT)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc/blob/main/LICENSE) (MIT)
+- [eslint](https://github.com/eslint/eslint/blob/main/LICENSE) (MIT)
+- [eslint-plugin-react-hooks](https://github.com/facebook/react/blob/main/LICENSE) (MIT)
+- [eslint-plugin-react-refresh](https://github.com/pmmmwh/react-refresh-webpack-plugin/blob/main/LICENSE) (MIT)
+- [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort/blob/main/LICENSE) (MIT)
+- [sass](https://github.com/sass/dart-sass/blob/master/LICENSE) (MIT)
+- [typescript](https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt) (Apache 2.0)
+- [vite](https://github.com/vitejs/vite/blob/main/LICENSE) (MIT)
+
+All third-party libraries are MIT or Apache 2.0 licensed.  
+Please refer to their LICENSE files or repositories for full terms.
+
+---
+
+Notes:
+
+- If you modify any third-party library under Apache 2.0, include a notice of modifications as required by the license.
+- This LICENSE file should be included in any redistribution of the software.
